@@ -44,6 +44,6 @@ def animate_life_game(initial_state, generations):
 if __name__ == "__main__":
     rows = 20
     cols = 20
-    generations = 16
+    generations = 20
     initial_state = create_initial_state(rows, cols, density=0.2)
     animate_life_game(initial_state, generations)
